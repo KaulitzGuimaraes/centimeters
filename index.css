@@ -4,7 +4,8 @@
 }
 .vanimage{
   background-image: url("https://github.com/KaulitzGuimaraes/centimeters/blob/media/fbe05d6c-01d7-463d-bbf0-8dcd512857a1.JPG?raw=true");
-  background-repeat: repeat;
+  background-size: cover;
+  background-position: center, center;
   opacity: 1;
   top: 0;
   left: 0;
