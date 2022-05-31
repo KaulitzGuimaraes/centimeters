@@ -39,7 +39,7 @@ let songs = [
 let posImg = 0
 function changeBg() {
     var imgUrl = photos[posImg];
-    if(posImg == songs.length -1){
+    if(posImg == photos.length -1){
         posImg = 0
     }else{
         posImg+=1
