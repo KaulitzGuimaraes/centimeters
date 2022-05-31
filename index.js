@@ -49,7 +49,7 @@ function changeBackgroundSmoothly() {
 }
 var audio = document.getElementById("myaudio");
   audio.volume = 0.5;
-  audio.play()
+
 let pos = 0
 let status_ = true;
   audio = document.getElementById("myaudio");
@@ -76,5 +76,6 @@ card.addEventListener('dblclick', function (e) {
     }
     
 });
+audio.play()
 
 setInterval(changeBackgroundSmoothly,5000);
