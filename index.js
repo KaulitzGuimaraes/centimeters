@@ -36,8 +36,14 @@ let songs = [
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/Spring 1 - Recomposed by Max Richter Vivaldi The Four Seasons.mp3?raw=true",
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/Home.mp3?raw=true",
 ]
+let posImg = 0
 function changeBg() {
-    var imgUrl = photos[Math.floor(Math.random()*photos.length)];
+    var imgUrl = photos[posImg];
+    if(posImg == songs.length -1){
+        posImg = 0
+    }else{
+        posImg+=1
+    }
     $('.vanimage').css('background-image', 'url(' + imgUrl + ')');
 
     $('.vanimage').fadeIn(1000);
@@ -65,6 +71,11 @@ let status_ = true;
   });
 
 const card = document.querySelector('#main');
+card.addEventListener('click', function (e) {
+    audio.play()
+}   ) 
+;
+
 
 card.addEventListener('dblclick', function (e) {
     if (status_){
@@ -76,6 +87,6 @@ card.addEventListener('dblclick', function (e) {
     }
     
 });
-audio.play()
+
 
 setInterval(changeBackgroundSmoothly,5000);
