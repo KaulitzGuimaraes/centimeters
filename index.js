@@ -19,6 +19,13 @@ let photos = [
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4585.JPG?raw=true",
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/019e3563-d17b-43b6-be71-d7cf5a1c6d9f.JPG?raw=true",
 ]
+let songs = [
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/Doria - Island Songs VII.mp3?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/Dawn.mp3?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/Keith Kenniff - Even Now.mp3?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/Spring 1 - Recomposed by Max Richter Vivaldi The Four Seasons.mp3?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/Home.mp3?raw=true",
+]
 function changeBg() {
     var imgUrl = photos[Math.floor(Math.random()*photos.length)];
     $('.vanimage').css('background-image', 'url(' + imgUrl + ')');
@@ -30,5 +37,34 @@ function changeBackgroundSmoothly() {
     $('.vanimage').fadeOut(1000, changeBg);
    
 }
+var audio = document.getElementById("myaudio");
+  audio.volume = 0.5;
+
+let pos = 0
+let status_ = true;
+  audio = document.getElementById("myaudio");
+  audio.addEventListener("ended", function() {
+      audio.pause();
+      if(pos == songs.length -1){
+          pos = 0
+      }else{
+          pos+=1
+      }
+      audio.setAttribute('src',songs[pos])
+      audio.play();
+  });
+
+const card = document.querySelector('#main');
+
+card.addEventListener('dblclick', function (e) {
+    if (status_){
+        audio.pause()
+        status_ = false
+    }else{
+        audio.play()
+        status_ = true
+    }
+    
+});
 
 setInterval(changeBackgroundSmoothly,5000);
