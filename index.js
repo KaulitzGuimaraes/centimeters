@@ -12,13 +12,23 @@ let photos = [
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/66015e9b-ad78-4938-bbe2-df510ca83d04.JPG?raw=true",
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/ba9e3331-b67b-4871-a40e-cf6665d03ccf.JPG?raw=true",
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4607.JPG?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4439.jpg?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4438.jpg?raw=true",
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/fd10f53f-5e4b-4e59-9cb9-a4c40a8772ee.JPG?raw=true",
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/7d43c719-19ce-4238-85d3-e293ec19a0aa.JPG?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4436.jpg?raw=true",
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/db3a0da2-7b51-4139-b294-a89110d4f0fd.JPG?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4435.jpg?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4434.jpg?raw=true",
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/e3bc8211-55b5-47f9-919d-1a9e980ee14b.JPG?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4433.jpg?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4432.jpg?raw=true",
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4585.JPG?raw=true",
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/019e3563-d17b-43b6-be71-d7cf5a1c6d9f.JPG?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4451.jpg?raw=true",
+"https://github.com/KaulitzGuimaraes/centimeters/blob/media/IMG_4445.jpg?raw=true",
 ]
+
 let songs = [
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/Doria - Island Songs VII.mp3?raw=true",
 "https://github.com/KaulitzGuimaraes/centimeters/blob/media/Dawn.mp3?raw=true",
